@@ -80,6 +80,8 @@ namespace HomeMakers.Models
             set { rep_minus = value; }
         }
 
+        public virtual Person Person { get; set; }
 
+        public virtual ICollection<Comment> Comments { get; set; }
     }
 }

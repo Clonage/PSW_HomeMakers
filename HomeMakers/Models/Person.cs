@@ -88,7 +88,13 @@ namespace HomeMakers.Models
         }
 
         public virtual Role Role { get; set; }
-       
 
+        public virtual ICollection<Post> Posts { get; set; }
+
+        public virtual ICollection<Community> Communities { get; set; }
+
+        public virtual ICollection<Follow> Followed { get; set; }
+
+        public virtual ICollection<Follow> Followers { get; set; }
     }
 }

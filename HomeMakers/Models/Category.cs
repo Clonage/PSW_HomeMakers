@@ -26,7 +26,7 @@ namespace HomeMakers.Models
             set { description = value; }
         }
 
-
+        public virtual ICollection<Post> Posts { get; set; }
     
     }
 }
