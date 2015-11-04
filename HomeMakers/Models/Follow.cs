@@ -24,7 +24,8 @@ namespace HomeMakers.Models
             set { follower = value; }
         }
 
-
+        public virtual Person Person1 { get; set; }
+        public virtual Person Person2 { get; set; }
 
     }
 }

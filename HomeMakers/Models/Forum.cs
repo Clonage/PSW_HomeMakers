@@ -31,5 +31,6 @@ namespace HomeMakers.Models
             set { text = value; }
         }
 
+        public virtual Community Community { get; set; }
     }
 }

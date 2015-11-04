@@ -39,5 +39,7 @@ namespace HomeMakers.Models
             set { comment_text = value; }
         }
 
+        public virtual Person Person { get; set; }
+        
     }
 }

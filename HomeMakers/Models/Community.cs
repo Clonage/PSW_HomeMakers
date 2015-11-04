@@ -23,5 +23,6 @@ namespace HomeMakers.Models
             set { description = value; }
         }
 
+        public virtual Forum Forum { get; set; }
     }
 }
