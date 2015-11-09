@@ -5,6 +5,7 @@ using System.Web;
 using System.Drawing.Imaging;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
+using System.ComponentModel.DataAnnotations;
 
 namespace PSW_HomeMakers.Models
 {

@@ -4,11 +4,20 @@ using System.Linq;
 using System.Web;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
+using System.ComponentModel.DataAnnotations;
 
 namespace PSW_HomeMakers.Models
 {
     public class Forum
     {
+        private int id;
+
+        public int ID
+        {
+            get { return id; }
+            set { id = value; }
+        }
+        
         private string title;
 
         public string Title
@@ -33,6 +42,6 @@ namespace PSW_HomeMakers.Models
             set { text = value; }
         }
 
-        public virtual Community Community { get; set; }
+        
     }
 }

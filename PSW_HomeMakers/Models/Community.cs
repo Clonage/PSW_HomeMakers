@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
+using System.ComponentModel.DataAnnotations;
 
 namespace PSW_HomeMakers.Models
 {
@@ -25,6 +26,6 @@ namespace PSW_HomeMakers.Models
             set { description = value; }
         }
 
-        public virtual Forum Forum { get; set; }
+        
     }
 }
