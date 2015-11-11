@@ -17,7 +17,6 @@ namespace PSW_HomeMakers.DAL
         public DbSet<Comment> Comment { get; set; }
         public DbSet<Community> Community { get; set; }
         public DbSet<Follow> Follow { get; set; }
-        public DbSet<Forum> Forum { get; set; }
         public DbSet<Person> Person { get; set; }
         public DbSet<Person_Community> Person_Community { get; set; }
         public DbSet<Post> Post { get; set; }
