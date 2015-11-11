@@ -26,6 +26,6 @@ namespace PSW_HomeMakers.Models
             set { description = value; }
         }
 
-        
+        public string forum { get; set; }
     }
 }
